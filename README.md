@@ -1,0 +1,2 @@
+# novel_parser
+This Python file, created for a Digital Humanities assignment (woohoo), takes single novels or corpora of novels as input. The user can choose novels from these files and compare them. The program displays "most frequent words" in each novel and "most distinctive words" in each through comparison. The program also displays the "context" (surrounding words) of any word in the novel. (Ex: input "love" will display every use of the word "love" in the novel). I experimented with removing different stopwords when we returned to this program for my English class.
