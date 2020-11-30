@@ -1,10 +1,10 @@
 # novel_parser: description
 This Python file, created for a digital humanities assignment in my course Rise of the Novel, takes single novels or corpora of novels as input. The user can choose novels from these files and compare them. The program displays "most frequent words" in each novel and "most distinctive words" in each through comparison. The program also displays the "context" (surrounding words) of any word in the novel. (Ex: input "love" will display every use of the word "love" in the novel). I experimented with removing different stopwords when we returned to this program for my English class.
 
-# For class:
+## For class:
 I ran the novel parser on a corpora of Victorian and other early novels. 
 
-# My analysis of the program's results:
+## My analysis of the program's results:
 
 I wanted to see if I could make the “most frequent words” feature more informative, so I found the list of stopwords that Voyant uses, then read it into a list in textinfo.py. I then used this list to remove stopwords from the results (after asking the user if they want stopwords or not). My favorite finding: Mary Shelley uses the word “miserable” a lot more than she uses the word “happy” in Frankenstein.)
 
